@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "robust-haiku-403910-tfstate"
     prefix = "env/prod"
   }
 }
